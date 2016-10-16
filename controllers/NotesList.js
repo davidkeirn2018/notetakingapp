@@ -3,11 +3,8 @@
  */
 
 
-/* GET Home or Login Page */
+/* GET Login, Notes List, Editor Page */
 
-/*module.exports.Home = function(reg, res){
-    res.render('index', { title: 'Home'});
-};*/
 module.exports.login = function(reg, res){
     res.render('index', { title: 'Login'});
 };
