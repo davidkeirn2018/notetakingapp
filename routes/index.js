@@ -5,7 +5,10 @@ var cntrlNotesList = require('../controllers/NotesList');
 var cntrlMain = require('../controllers/main');
 
 /* Notes Editor Pages */
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 router.get('/login', cntrlNotesList.login);
 router.get('/notes', cntrlNotesList.notes);
 router.get('/notes/editor', cntrlNotesList.editNotes);
