@@ -2,12 +2,6 @@
  * Created by office1 on 10/9/2016.
  */
 
-
-/* GET Home or Login Page */
-
-/*module.exports.Home = function(reg, res){
-    res.render('index', { title: 'Home'});
-};*/
 module.exports.login = function(reg, res){
     res.render('index', { title: 'Login'});
 };
